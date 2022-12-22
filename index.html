@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula Deploy</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/site.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav>
+            <h3>Projeto lampada - HTML, CSS e JavaScript</h3>
+        </nav>
+        <div class="conteudo">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores consequatur rerum harum eveniet, distinctio corporis. Repudiandae, dolor odit, sapiente tempore suscipit, itaque iusto consequatur quae veritatis nulla nihil. Similique!</p>
+            </div>
+            <div class="lampada">
+                <h1>Acenda a lâmpada</h1>
+                <img src="img/lpApagada.png" alt="Lâmpada apagada" id="lamp" onmousemove="mudaLampada(1)" onmouseout="mudaLampada(2)" onclick="mudaLampada(3)"
+                >
+                <button onclick="reiniciar()" class="btn">Reiniciar</button>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
